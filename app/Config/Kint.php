@@ -1,7 +1,7 @@
 <?php namespace Config;
 
-use CodeIgniter\Config\BaseConfig;
 use Kint\Renderer\Renderer;
+use CodeIgniter\Config\BaseConfig;
 
 class Kint extends BaseConfig
 {

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Controllers;
 
 /**
@@ -42,7 +41,6 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
-		// ini adalah tempt untuk membuat semacam variable yang bisa dipakai dimana saja didalam controller yang extend ke Based Controller ini
-		$this->nama = "ivandjoh";
 	}
+
 }
