@@ -1,17 +1,18 @@
-<?php namespace App\Controllers;
+<?php
+
+namespace App\Controllers;
 
 class Home extends BaseController
 {
+
 	public function index()
 	{
-		return view('welcome_message');
+		echo view('calendar');
 	}
 
-	public function home()
+	public function calendar()
 	{
-		echo "Selamat datang di halaman admin";
+		helper(['form', 'calendar_helper']);
+		echo view('frontend/calendar');
 	}
-
-	//--------------------------------------------------------------------
-
 }
