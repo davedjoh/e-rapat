@@ -3,7 +3,8 @@
         <div id="contextMenu" class="dropdown clearfix"></div>
         <div class="panel panel-default hidden-print">
             <div class="panel-heading">
-                <h3 class="panel-title">Pengaturan Tampilan kalender</h3>
+                <h3 class="panel-title"><?= $title; ?></h3>
+
             </div>
             <div class="panel-body vertical-align">
                 <div class="col-lg-5">

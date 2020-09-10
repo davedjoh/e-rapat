@@ -5,7 +5,7 @@
             <a class="p-2 text-dark text-decoration-none" href="<?= base_url('beranda') ?>">Beranda</a>
             <a class="p-2 text-dark text-decoration-none" href="<?= base_url('berita') ?>">Berita</a>
         </nav> -->
-    <a class="btn btn-outline-success" href="<?= base_url('auth') ?>">
+    <a class="btn btn-outline-success" href="<?= base_url('login') ?>">
         <?php
         // $sess_id = $this->session->userdata('email');
         // if ($sess_id) {
